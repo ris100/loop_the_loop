@@ -11,4 +11,9 @@ if flow_rate > 50
   flow_rate = 50
   puts "The flow_rate's been reset to #{flow_rate}."
 elsif flow_rate < 50
-  puts "Warning the flow_rate is under 50! It's"              
+  puts "Warning the flow_rate is under 50! It's#{flow_rate}."
+  flow_rate = 50
+  puts "The flow_rate's been reset to #{flow_rate}."
+else
+  puts "The flow_rate is#{flow_rate} (thank goodness)."
+end               
