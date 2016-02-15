@@ -1,5 +1,5 @@
 we_wanna_ride =true
-stops = ["fellswood drive","ymca","libary","penang","barnes and nobles","wushu"]
+stops = ["fellswood drive","ymca","libary","penang","barnes ands nobles","wushu"]
 while we_wanna_ride 
   print "Where we headin',friend?:"
   destination = gets.chomp

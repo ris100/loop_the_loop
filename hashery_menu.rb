@@ -3,7 +3,8 @@ hashery_menu = {
 	hash:3,
 	jam:1,
 	sausage:2,
-	biscuit: (1..3)
+	biscuit: (1..3),
+  chunky:(bacon:1)
 }
 hashery_menu.keys.each do |item|
 	puts "Today we're serving #{item}!"
