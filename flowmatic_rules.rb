@@ -6,6 +6,7 @@ elsif !flowmatic_on
   puts "Flowmatic is off!"
 else
   puts "No water!"
+end  
 if flow_rate > 50
   puts "Warning! flow rate is above 50! It's#{flow_rate}"
   flow_rate = 50
