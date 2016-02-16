@@ -1,7 +1,7 @@
 flowmatic_on = true
 water_awailable = true
 if flowmatic_on && water_awailable
-  flow rate = 50
+  flow_rate = 50
 elsif !flowmatic_on 
   puts "Flowmatic is off!"
 else
